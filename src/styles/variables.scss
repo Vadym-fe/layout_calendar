@@ -3,14 +3,14 @@ $color-row: #eee;
 $color-hover: #ffbfcb;
 
 // Retreat
-$pading-main: 10px;
+$padding-main: 10px;
 $gap-main: 1px;
 
 // Size
 $cell-size: 100px;
-$colmns-main: 7;
-$total-width: ($colmns-main * $cell-size) + (($colmns-main - 1) * $gap-main) +
-  (2 * $pading-main);
+$columns-main: 7;
+$total-width: ($columns-main * $cell-size) + (($columns-main - 1) * $gap-main) +
+  (2 * $padding-main);
 
 // Fonts
 $font-main: Arial, sans-serif;
