@@ -26,16 +26,14 @@ body {
   background-color: $color-row;
   border: 1px solid black;
   transition: all 0.5s;
+
   display: flex;
   justify-content: center;
   align-items: center;
 
   &::before {
-    display: flex;
     font-family: $font-main;
     font-size: 30px;
-    align-items: center;
-    justify-content: center;
   }
 
   &:hover {
