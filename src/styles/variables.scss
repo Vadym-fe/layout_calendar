@@ -9,7 +9,8 @@ $gap-main: 1px;
 // Size
 $cell-size: 100px;
 $colmns-main: 7;
-$total-width: ($colmns-main * $cell-size) + (($colmns-main - 1) * $gap-main) + пше(2 * $pading-main);
+$total-width: ($colmns-main * $cell-size) + (($colmns-main - 1) * $gap-main) +
+  (2 * $pading-main);
 
 // Fonts
 $font-main: Arial, sans-serif;
